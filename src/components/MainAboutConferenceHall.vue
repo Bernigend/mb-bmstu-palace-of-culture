@@ -75,4 +75,23 @@
             z-index: 1;
         }
     }
+
+    @media (max-width: 750px) {
+        .img-block {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .img-with-bg {
+            width: 70%;
+        }
+
+        .img-block {
+            p {
+                width: auto;
+                text-align: center;
+                margin: 3rem 0 0 0;
+            }
+        }
+    }
 </style>

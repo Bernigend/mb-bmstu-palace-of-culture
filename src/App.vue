@@ -104,4 +104,14 @@ export default {
   .w50 {
     width: 50%;
   }
+
+  @media (max-width: 560px) {
+    html {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
 </style>

@@ -93,4 +93,19 @@
             }
         }
     }
+
+    @media (max-width: 750px) {
+        .studio {
+            flex-wrap: wrap;
+
+            &:last-child {
+                border-top: 1px solid rgba(96, 109, 113, 0.24);
+            }
+        }
+
+        .img,
+        .text {
+            width: 100%!important;
+        }
+    }
 </style>

@@ -136,4 +136,44 @@
     .wrapper {
         margin-bottom: 3rem;
     }
+
+    @media (max-width: 750px) {
+        .img-block {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .img-with-bg {
+            width: 70%;
+        }
+
+        .img-block {
+            p {
+                width: auto;
+                text-align: center;
+                margin: 3rem 0 0 0;
+            }
+        }
+
+        .hall-and-conference {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .hall {
+            padding: 3rem 0;
+            width: 100%;
+            max-width: 500px;
+            border: 1px solid rgba(96, 109, 113, 0.3);
+            border-right: none;
+            border-left: none;
+        }
+
+        .conference {
+            width: 100%;
+            max-width: 500px;
+            padding: 3rem 0 0 0;
+            border: none;
+        }
+    }
 </style>

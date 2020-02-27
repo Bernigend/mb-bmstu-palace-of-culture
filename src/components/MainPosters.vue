@@ -32,12 +32,13 @@
 <style scoped>
     .posters {
         display: flex;
-        margin: 2rem 0;
-        flex-wrap: nowrap;
-        justify-content: space-between;
+        margin: 1.5rem -.5rem 2.5rem -.5rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .poster {
+        margin: .5rem;
         width: 17.5rem;
         height: 25rem;
         background-color: aquamarine;
@@ -46,5 +47,19 @@
 
     .wrapper {
         margin-bottom: 3.5rem;
+    }
+
+    @media (max-width: 950px) {
+        .poster {
+            height: 20.8rem;
+            width: 14.5rem;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .poster {
+            height: 17rem;
+            width: 12rem;
+        }
     }
 </style>

@@ -16,6 +16,7 @@
         position: relative;
         padding: 5rem 0;
 
+        font-size: 1rem;
         text-align: center;
         background-repeat: no-repeat;
         background-position: center;
@@ -47,9 +48,20 @@
         border-bottom: none;
 
         font-family: 'Exo 2',serif;
-        font-size: 2.3rem;
+        font-size: 2.3em;
 
         color: #ffffff;
         z-index: 5;
+    }
+
+    @media (max-width: 560px) {
+        section {
+            font-size: .7rem;
+        }
+
+        h2 {
+            padding-right: 1.5rem;
+            padding-left: 1.5rem;
+        }
     }
 </style>

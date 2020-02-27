@@ -78,7 +78,7 @@
     .numbers,
     .navigation {
         display: flex;
-        margin: 3rem 0;
+        margin: 3.5rem -.5rem;
 
         justify-content: space-around;
         align-items: center;
@@ -90,6 +90,7 @@
             display: flex;
             width: 160px;
             height: 160px;
+            margin: .5rem;
 
             align-items: center;
             justify-content: center;
@@ -108,6 +109,12 @@
             &.blue {
                 border-color: $color-2;
             }
+        }
+    }
+
+    .navigation {
+        button {
+            margin: .5rem;
         }
     }
 
@@ -142,6 +149,25 @@
             background-color: $color-2-light;
             transform: rotate(3deg);
             z-index: 1;
+        }
+    }
+
+    @media (max-width: 750px) {
+        .img-block {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .img-with-bg {
+            width: 70%;
+        }
+
+        .img-block {
+            p {
+                width: auto;
+                text-align: center;
+                margin: 3rem 0 0 0;
+            }
         }
     }
 </style>

@@ -35,10 +35,14 @@
 
     .navigation {
         display: flex;
-        margin: 3rem 0;
+        margin: 2.5rem -.5rem;
 
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+
+        button {
+            margin: .5rem;
+        }
     }
 </style>
